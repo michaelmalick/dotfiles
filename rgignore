@@ -1,0 +1,21 @@
+# Global ripgrep ignore
+
+!scratch.R
+!scratch.py
+
+*.pptx
+*.xlsx
+*.jpg
+*.png
+*.pdf
+*.exe
+*.csv
+*.RData
+*.DS_Store
+
+.git/
+
+*.dbf
+*.shx
+*.prj
+*.shp
