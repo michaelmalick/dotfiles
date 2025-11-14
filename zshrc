@@ -49,6 +49,8 @@ tmuxkill() {
 
 
 ## FZF -----------------------------------------------------
+source <(fzf --zsh)  # keybindings + completion
+
 FZF_DEFAULT_OPTS=' --reverse --exact '
 FZF_DEFAULT_OPTS+='--height 80% '
 FZF_DEFAULT_OPTS+="--preview 'cat {}' "
