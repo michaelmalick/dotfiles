@@ -16,3 +16,7 @@ setHook(packageEvent("grDevices", "onLoad"),
 
 ## Hard code the US repo for CRAN
 options(repos = c(CRAN = "https://cran.r-project.org"))
+
+
+## Radian
+options(radian.complete_while_typing = FALSE)  # allow nvim auto-scroll
