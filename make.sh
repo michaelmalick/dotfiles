@@ -8,7 +8,6 @@ declare -a SOURCE_FILES=(
     "zshrc"
     "rgignore"
     "Rprofile"
-    "gitignore_global"
     "tmux.conf"
 )
 
@@ -16,7 +15,6 @@ declare -a DEST_PATHS=(
     "$HOME/.zshrc"
     "$HOME/.rgignore"
     "$HOME/.Rprofile"
-    "$HOME/.gitignore_global"
     "$HOME/.config/tmux/tmux.conf"
 )
 
