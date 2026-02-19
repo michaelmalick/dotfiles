@@ -7,4 +7,4 @@ linters: all_linters(
     object_usage_linter = NULL,
     redundant_ifelse_linter = NULL,
     cyclocomp_linter = NULL
-)
+    )
