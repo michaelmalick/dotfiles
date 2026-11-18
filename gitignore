@@ -1,0 +1,15 @@
+## Global .gitignore
+
+*.log
+*.swp
+tags
+!tags/
+
+*.RData
+*.rds
+*.Rhistory
+*.Rapp.history
+
+.DS_Store
+.DS_Store?
+
